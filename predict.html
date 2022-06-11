@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="predict.css">
+ <title>Predict the flame status!</title>
+</head>
+<body>
+ <h1>Please enter the following details to know the status of the flame</h1>
+ <div style="
+             font-size: 23px;
+             text-align: justify;
+             padding: 50px;">
+ <form>
+  <label for="size"> Size: </label>
+  <input type="number" id="size" name="size" placeholder="Type 1 - 7cm, 2 - 12cm, 3 - 14cm, 4 - 16cm, 5 - 20cm, 6 - full-throttle and 7 for half-throttle setting"><br><br>
+  <label for="fuel">Fuel type: </label>
+  <input type="text" id="fuel" name="size" placeholder="Gasoline, Kerosene, Thinner"><br><br>
+  <label for="distance">Distance from woofer: </label>
+  <input type="number" id="distance" name="distance" placeholder="10 - 190 cm"><br><br>
+  <label for="desibel">Desibel: </label>
+  <input type="number" id="desibel" name="desibel" placeholder="72 - 113 dB"><br><br>
+  <label for="airflow">Airflow: </label>
+  <input type="number" name="Airflow" id="airflow" placeholder="0 - 17 m/s"><br><br>
+  <label for="freq">Frequency: </label>
+  <input type="number" name="Frequency" id="freq" placeholder="1 - 75 Hz"><br><br>
+  <input type="submit" name="submit" id="submit" value="Classify">
+ </form>
+ </div>
+</body>
+</html>
